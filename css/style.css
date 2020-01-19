@@ -1,0 +1,873 @@
+body {
+	max-width: 1580px;
+	/*max-width: 100vw;*/
+	margin: 0 auto;
+
+	font-family: 'Open Sans', sans-serif;
+
+	background: #FFFFFF;
+}
+/*-1------------------------*/
+.page-1st {
+	min-height: 690px;
+	margin: 0 auto;
+
+	background: #F6F2F2;
+}	
+
+.page-1st header {
+	max-width: 1250px;
+	/*max-width: 80vw;*/
+	margin: 30px auto 0 auto;
+
+	background: #000000;
+	opacity: 0.8;
+}
+.page-1st header nav {
+	padding: 0 25% 0 25%;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}	
+.page-1st header nav a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.49px;
+	text-transform: uppercase;
+
+    padding: 32px 30px 34px 30px;
+	text-decoration: none;
+	color: #E0E0E0;    
+}
+.page-1st header nav a:hover {
+	background: #FF3F40;
+}
+.main-1st {
+	max-width: 1250px;
+	/*max-width: 80vw;*/
+	margin: 50px auto 55px auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main-1st main {
+	width: 50%;
+	min-height: 360px;
+	margin: 50px 0 55px 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+@media screen and (max-width: 1100px) { 
+	.main-1st main {
+		width: 100%;
+	}
+}
+.main-1st main h1 {
+	margin: 0;
+	margin-top: -12px;
+
+	font-style: normal;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 72px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+.main-1st main p {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+.main-1st main .button {
+	width: 230px;
+	height: 58px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+
+	text-decoration: none;
+
+	color: #FFFFFF;
+	background: #FF2D2D;
+
+	border-radius: 10px;
+}
+
+.main-1st main .button:hover {
+	background: #FF3F40;
+}
+.main-1st aside {
+	margin: 50px 0 55px 0;
+
+} 
+.main-1st aside a img {
+	display: block;
+	width: 550px;
+	height: 360px;
+	background: #FF2222;
+}
+.main-1st aside a img:hover {
+	background: #FF3F40;
+}
+/*-2-------------------------*/
+.page-2nd {
+	min-height: 690px;
+	margin: 0 auto;
+
+	background: #FFFFFF;
+}	
+.main-2nd {
+	max-width: 1250px;
+	/*max-width: 80vw;*/
+	margin: 0 auto;
+	padding: 90px 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main-2nd main {
+	width: 50%;
+	min-width: 250px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.main-2nd main h1 {
+	/* do you know we can  provide for you ? */
+	margin: 0 0 50px 0;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42.1902px;
+	line-height: 55px; /* or 131% */
+	letter-spacing: 0.422159px;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+.main-2nd main p {
+	/* Lorem ipsum dolor sit amet... */
+	margin: 0 0 50px 0;
+
+	font-style: normal; 
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px; 	/* or 175% */
+
+	color: #000000;
+}
+.main-2nd main .button {
+	/* Learn More */
+	text-decoration: none;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18.0412px;
+	line-height: 34px; 	/* or 188% */
+	letter-spacing: 0.3195px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	/* Rectangle 18 copy */
+	width: 230px;
+	height: 57px;
+	background: rgba(0, 0, 0, 0.0001);
+	border: 2px solid #FF0000;
+	box-sizing: border-box;
+	border-radius: 10px;
+
+	color: #FF2D2D;
+}
+.main-2nd aside {
+	width: 50%;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.main-2nd aside .service {
+	text-decoration: none;
+	width: 45%;
+	margin: 10px;	
+	display: flex;
+	flex-direction: column;
+}
+.main-2nd aside a {
+	text-decoration: none;
+	width: 45%;
+	min-width: 250px;
+	margin: 10px;	
+	
+	display: flex;
+	flex-direction: column;
+}
+.main-2nd aside a img {
+	padding-bottom: 20px;
+
+	display: flex;
+	justify-content: flex-start;
+}
+.main-2nd aside a h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24.0692px;
+	letter-spacing: 0.271838px;
+
+	display: flex;
+	justify-content: flex-start;
+
+	color: #000000;
+}
+.main-2nd aside a p {
+	margin: 0;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+
+	display: flex;
+	justify-content: flex-start;
+
+	color: #000000;
+}
+body .page-line {
+	width: 1250px;
+	height: 5px;
+	margin: 0 auto;
+
+	background: #ECECEC;
+}
+/*-3-------------------------*/
+.page-3rd {
+	min-height: 930px;
+	margin: 0 auto;
+
+	background: #FFFFFF;
+}
+.page-3rd header {
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.page-3rd header h1 {
+	/* feature products */
+	margin: 0;
+    padding: 80px 0 10px 0;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41.9876px;
+	letter-spacing: 0.3834px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+.page-3rd header p {
+	/*Lorem ipsum dolor ...*/
+	max-width: 536px;
+    margin: 0;
+    padding-bottom: 20px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px; /*or 175% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+.page-3rd header .header-line {
+	/* Rectangle 4 copy */
+	width: 134px;
+	height: 3px;
+	margin: 0 auto;
+
+	background: #FF2D2D;
+}
+.page-3rd header nav {
+    margin: 80px 0 40px 0;
+
+ 	display: flex;
+ 	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+}
+.page-3rd header nav a {
+	/* all */
+    padding: 0 30px;
+   	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 24px; /* identical to box height, or 109% */
+	letter-spacing: 0.22px;
+	text-transform: uppercase;
+	
+	text-decoration: none;
+
+	color: #000000;
+}
+.page-3rd header nav a:hover {
+	color: #FF2D2D;
+
+}
+
+.page-3rd main {
+	max-width: 1270px;
+	margin: 0 auto;
+
+ 	display: flex;
+ 	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+.page-3rd main a {
+	/* Rectangle 1 copy 4 */
+	width: 297px;
+	height: 293px;
+	margin: 10px;
+
+	background: #5281FF;
+}
+/*-4-------------------------*/
+.page-4th {
+	max-width: 1270px;
+	margin: 0 auto;
+
+	background: #FFFFFF;
+}
+.page-4th header {
+	display: flex;	
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.page-4th header h1 {
+	/* Meet our team */
+	margin: 100px 0 20px 10px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41.9876px;
+	letter-spacing: 0.3834px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: flex-start;
+	text-align: left;
+
+	color: #000000;
+}
+.page-4th header p {
+	/*Lorem ipsum dolor ...*/
+	max-width: 478px;
+    margin: 0 0 20px 10px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px; /*or 175% */
+
+	display: flex;
+	align-items: flex-start;
+	text-align: left;
+
+	color: #000000;
+}
+.page-4th header .header-line {
+	/* Rectangle 4 copy 4 */
+	width: 134px;
+	height: 3px;
+	margin: 0 0 30px 10px;
+
+	background: #FF2D2D;
+}
+.page-4th-main {
+	max-width: 1270px;
+	margin: 30px auto 100px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.page-4th-main main {
+	width: 30%;
+	min-width: 324px;
+
+ 	display: flex;
+}
+.page-4th-main main a {
+	/* Rectangle 7 */
+	width: 324px;
+	height: 460px;
+	margin: 10px; 
+
+	background: #FF3F40;
+}
+.page-4th-main aside {
+	max-width: 70%;
+
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ }
+.page-4th-main aside h2 {
+/* mark waugh */
+	margin-left: 10px;
+	margin-bottom: 0;
+	
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30.127px;
+	letter-spacing: 0.275265px;
+	text-transform: uppercase;
+
+	display: flex;
+	justify-content: flex-start;
+
+	color: #000000;	
+
+}
+.page-4th-main aside p {
+	/* Lorem ipsum dolor sit ame...*/
+	max-width: 660px;
+	margin-left: 10px;
+	margin-top: 0;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px; 	/* or 175% */
+	display: flex;
+
+	color: #000000;
+}
+.page-4th-main aside nav {
+	margin-bottom: 30px;
+	margin-left: 10px;
+
+	display: flex;
+	justify-content: flex-start;
+
+}
+.page-4th-main aside nav a {
+	/* Facebook */
+	padding-right: 20px;
+
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	/* identical to box height, or 133% */
+	letter-spacing: 0.9px;
+	display: flex;
+
+	text-decoration: none;
+
+	color: #000000;
+}
+.page-4th-main .bars {
+	margin-top: 30px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.page-4th-main .bars a {
+	/* Rectangle 7 copy */
+	width: 200px;
+	height: 217px;
+	margin: 10px; 
+	
+	background: #FF3F40;
+}
+.page-4th-main .bars .b1 {
+	margin: 10px; 
+}
+.page-4th-main .bars .b1 .top {
+	width: 200px;
+	height: 177px; 	/*=217-40*/
+	margin: 0; 
+
+	display: flex;
+	flex-direction: column;
+}
+.page-4th-main .bars .b1 .s-j {
+	/* sokina jue Rectangle 8 */
+	width: 200px;
+	height: 40px;
+	margin: 0; 
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18.0762px;
+	letter-spacing: 0.165159px;
+	text-transform: uppercase;
+
+	text-decoration: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #FFFFFF;
+	background: #801F20;
+}
+/*-5-------------------------*/
+.page-5th {
+	min-height: 516px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	background: #2C2C2C;
+}
+.page-5th h1 {
+/* Design tips, tricks, and freebies. Delivered weekly. */
+	margin: 150px 0 0 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	letter-spacing: 1.05px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.page-5th p {
+	/* Lorem ipsum dolor sit...sed d */
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;/* or 175% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.page-5th .subscribe {
+	margin: 0 0 140px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.page-5th .subscribe .input {
+	/* Rounded Rectangle 1 */
+	width: 524px;
+	height: 82px;
+	margin: 10px;
+
+	display: flex;
+	align-items: center;
+
+	background: #FFFFFF;
+
+	border-radius: 10px;
+}
+.page-5th .subscribe .input p {
+	/* Email Address... */
+	margin-left: 38px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px; /*150% */
+	letter-spacing: 0.4px;
+
+	display: flex;
+
+	color: #2C2C2C;
+}
+.page-5th .subscribe .button {
+	/* Rounded Rectangle 2 subscribe */
+	width: 217px;
+	height: 82px;
+	margin: 10px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17.9026px;
+	line-height: 34px; 	/* or 189% */
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+
+	text-decoration: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #FFFFFF;
+	background: #FF2D2D;
+
+	border-radius: 10px;
+}
+
+
+/*-6-------------------------*/
+.page-6th {
+	min-height: 771px;
+	margin: 100px 0 100px 10%;
+
+	display: flex;
+	flex-direction: column;
+
+	background: #FFFFFF;
+}
+.page-6th header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	color: #000000;
+}
+.page-6th header h1 {
+	/* get in touch */
+	margin-top: 0; 
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41.9876px;
+	letter-spacing: 0.3834px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+}
+.page-6th header p {
+	/* Lorem ipsum dolor sit ... sed d */
+	max-width: 750px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;/* or 175% */
+
+	display: flex;
+	align-items: center;
+}
+.page-6th header .header-line {
+/* Rectangle 4 copy 5 */
+	width: 134px;
+	height: 3px;
+	margin: 30px 0;
+
+	background: #FF2D2D;
+}
+
+.page-6th .page-6th-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+
+	background: #FFFFFF;
+}
+
+.page-6th-wrap main {
+	/* Get In Touch */
+	width: 50%;
+
+	display: flex;
+	flex-direction: column;
+	
+	color: #000000;
+}
+.page-6th-wrap main .n-e-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.page-6th-wrap main .n-e-wrap .name {
+	/* Rounded Rectangle 7 */
+	min-width: 342px;
+	height: 71px;
+	margin-bottom: 43px;
+
+	border-radius: 10px;
+
+	background: #E5E5E5;
+}
+.page-6th-wrap main .n-e-wrap .name p {
+	/* Name */
+	margin-left: 50px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.0412px;
+	line-height: 34px; /* or 188% */
+	letter-spacing: 0.3195px;
+
+	display: flex;
+	align-items: center;
+}
+.page-6th-wrap main .n-e-wrap .email {
+	/* Rounded Rectangle 7 copy */
+	min-width: 342px;
+	height: 71px;
+	margin-bottom: 43px;
+
+	border-radius: 10px;
+	
+	background: #E5E5E5;
+}
+.page-6th-wrap main .n-e-wrap .email p {
+	/* Your Mail */
+	margin-left: 50px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9134px;
+	line-height: 28px; /* or 175% */
+
+	display: flex;
+	align-items: center;
+}
+.page-6th-wrap main .message-text {
+	/* Rounded Rectangle 6 */
+	min-width: 100%;
+	height: 252px;
+	margin-bottom: 43px;
+
+	border-radius: 10px;
+	
+	background: #E5E5E5;
+}
+.page-6th-wrap main .message-text p {
+/* Type your message */
+	margin-left: 50px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9134px;
+	line-height: 28px; /* or 175% */
+
+	display: flex;
+	align-items: center;
+}
+.page-6th-wrap main .send-button {
+	/* Rectangle 17 */
+	min-width: 100%;
+	height: 75px;
+
+/* Send message */
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17.9026px;
+	line-height: 34px;/* or 189% */
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
+
+	border-radius: 10px;
+
+	color: #000000;
+	background: #FF3B3B;
+}
+
+.page-6th-wrap aside {
+	/* contact info */
+	width: 40%;
+	min-width: 350px;
+	margin-left: 10%;
+
+	background: #2D2D2D;
+}
+.page-6th-wrap aside .c-i-wrap {
+	margin-left: 80px;
+	height: 485px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    justify-content: center;
+
+	color: #FFFFFF;
+}
+.page-6th-wrap aside .c-i-wrap h2 {
+	/* contact info */
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17.9026px;
+	line-height: 34px;/* or 189% */
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+}
+.page-6th-wrap aside .c-i-wrap p {
+	/* Jalalabad 24 ...*/
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;/* or 175% */
+
+	display: flex;
+	align-items: center;
+}
+
+/*-7-------------------------*/
+footer {
+	margin: 0 auto;
+	padding: 46px 10% 30px 10%; 
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+
+	background: #313030;
+}
+footer .copyright {
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #B8B8B8;
+}
+footer .social-networks a img {
+	padding: 0 8px; 
+}
